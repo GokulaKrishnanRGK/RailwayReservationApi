@@ -1,0 +1,15 @@
+javac -cp .;C:\Users\Gokulakrishnan\Desktop\ZOHOIncubation\Tasks\railwayServletCopy\tomcat\lib\servlet-api.jar LoginServlet.java
+
+javac -cp .;C:\Users\Gokulakrishnan\Desktop\ZOHOIncubation\Tasks\railwayServletCopy\tomcat\lib\servlet-api.jar;C:\Users\Gokulakrishnan\Desktop\ZOHOIncubation\Tasks\railwayServletCopy\tomcat\lib\gson-2.2.2.jar;C:\Users\Gokulakrishnan\Desktop\ZOHOIncubation\Tasks\railwayServletCopy\tomcat\lib\hibernate-core-5.5.2.Final.jar;C:\Users\Gokulakrishnan\Desktop\ZOHOIncubation\Tasks\railwayServletCopy\tomcat\lib\javax.persistence-api-2.2.jar;C:\Users\Gokulakrishnan\Desktop\ZOHOIncubation\Tasks\railwayServletCopy\tomcat\lib\javax.mail.jar;C:\Users\Gokulakrishnan\Desktop\ZOHOIncubation\Tasks\railwayServletCopy\tomcat\lib\activation.jar; RegisterServlet.java
+
+javac -verbose -cp .;C:\Users\Gokulakrishnan\Desktop\ZOHOIncubation\Tasks\railwayServletCopy\tomcat\lib\servlet-api.jar;C:\Users\Gokulakrishnan\Desktop\ZOHOIncubation\Tasks\railwayServletCopy\tomcat\lib\gson-2.2.2.jar;C:\Users\Gokulakrishnan\Desktop\ZOHOIncubation\Tasks\railwayServletCopy\tomcat\lib\hibernate-core-5.5.2.Final.jar;C:\Users\Gokulakrishnan\Desktop\ZOHOIncubation\Tasks\railwayServletCopy\tomcat\lib\javax.persistence-api-2.2.jar;C:\Users\Gokulakrishnan\Desktop\ZOHOIncubation\Tasks\railwayServletCopy\tomcat\lib\javax.mail.jar;C:\Users\Gokulakrishnan\Desktop\ZOHOIncubation\Tasks\railwayServletCopy\tomcat\lib\activation.jar;C:\Users\Gokulakrishnan\Desktop\ZOHOIncubation\Tasks\railwayServletCopy\tomcat\webapps\railway\WEB-INF\classes; RegisterServlet.java
+
+
+javac -cp .;C:\Users\Gokulakrishnan\Desktop\ZOHOIncubation\Tasks\railwayServletCopy\tomcat\lib\servlet-api.jar;C:\Users\Gokulakrishnan\Desktop\ZOHOIncubation\Tasks\railwayServletCopy\tomcat\lib\javax.mail.jar;C:\Users\Gokulakrishnan\Desktop\ZOHOIncubation\Tasks\railwayServletCopy\tomcat\lib\activation.jar;  SendMailServlet.java
+
+javac -cp .;C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\lib\servlet-api.jar;C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\lib\gson-2.2.2.jar;C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\lib\servlet-api.jar;C:\Users\Gokulakrishnan\Desktop\javax.mail.jar;C:\Users\Gokulakrishnan\Desktop\activation.jar;  TicketsServlet.java
+
+set classpath=C:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.25.jar
+set classpath=C:\Users\Gokulakrishnan\Desktop\ZOHOIncubation\Tasks\railwayServletCopy\tomcat\lib\mysql-connector-java-8.0.25.jar
+
+insert into passenger (age,bookingid,classid,classname,cost,customerid,destination,gender,iscancelled,name,seatno,source,status,userid) values (1,1,1,'AC',1000,3,'chen','male',0,'gokul','3','madu','CF','gokulshyam567@gmail.com');

@@ -1,0 +1,179 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+  version="4.0"
+  metadata-complete="true">
+
+  <!-- <welcome-file-list>
+      <welcome-file>/user/tickets</welcome-file>
+  </welcome-file-list> -->
+
+  <error-page>
+    <error-code>400</error-code>
+    <location>/error.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/error.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>403</error-code>
+    <location>/forbidden.jsp</location>
+  </error-page>
+
+  <filter>
+    <filter-name>CorsFilter</filter-name>
+    <filter-class>org.apache.catalina.filters.CorsFilter</filter-class>
+    <init-param>
+      <param-name>cors.allowed.origins</param-name>
+      <param-value>http://localhost:4200</param-value>
+    </init-param>
+    <init-param>
+      <param-name>cors.allowed.methods</param-name>
+      <param-value>GET,POST,HEAD,OPTIONS,PUT</param-value>
+    </init-param>
+    <init-param>
+      <param-name>cors.allowed.headers</param-name>
+      <param-value>Content-Type,X-Requested-With,accept,Origin,Access-Control-Request-Method,Access-Control-Request-Headers</param-value>
+    </init-param>
+    <init-param>
+      <param-name>cors.exposed.headers</param-name>
+      <param-value>Access-Control-Allow-Origin,Access-Control-Allow-Credentials</param-value>
+    </init-param>
+    <init-param>
+      <param-name>cors.support.credentials</param-name>
+      <param-value>true</param-value>
+    </init-param>
+    <init-param>
+      <param-name>cors.preflight.maxage</param-name>
+      <param-value>10</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>CorsFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+<!-- Railway servlet-mapping -->
+
+<servlet>
+    <servlet-name>TableInitialize</servlet-name>    
+    <servlet-class>InitializeServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+</servlet>
+
+<servlet>
+  <servlet-name>LoginServlet</servlet-name>
+  <servlet-class>LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/user/login</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>LogoutServlet</servlet-name>
+  <servlet-class>LogoutServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>LogoutServlet</servlet-name>
+  <url-pattern>/user/logout</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>RegisterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>PassengersServlet</servlet-name>
+  <servlet-class>DashboardServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>DashboardServlet</servlet-name>
+  <url-pattern>/user/passengers</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DashboardServlet</servlet-name>
+    <servlet-class>DashboardServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DashboardServlet</servlet-name>
+    <url-pattern>/user/dashboard</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>SendMailServlet</servlet-name>
+    <servlet-class>SendMailServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>SendMailServlet</servlet-name>
+    <url-pattern>/user/sendMail</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>TicketsServlet</servlet-name>
+    <servlet-class>TicketsServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>TicketsServlet</servlet-name>
+    <url-pattern>/user/tickets</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>CancelServlet</servlet-name>
+    <servlet-class>CancelServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>CancelServlet</servlet-name>
+    <url-pattern>/user/cancel</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>IsAuthenticated</servlet-name>
+  <servlet-class>IsAuthenticated</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>IsAuthenticated</servlet-name>
+  <url-pattern>/user/isValid</url-pattern>
+</servlet-mapping>
+
+<session-config>
+  <cookie-config>
+   <http-only>false</http-only>
+  </cookie-config>
+</session-config>
+
+<!-- <security-constraint>
+    <display-name>Railway Reservation Constraint</display-name>
+    <web-resource-collection>
+        <web-resource-name>RailwayReservation</web-resource-name>        
+        <url-pattern>/user/*</url-pattern>                
+    </web-resource-collection>
+    <auth-constraint>
+        <role-name>user</role-name>
+    </auth-constraint>
+</security-constraint>
+
+<login-config>
+    <auth-method>FORM</auth-method>
+    <realm-name>Railway Reservation</realm-name>
+    <form-login-config>
+       <form-login-page>/login.jsp</form-login-page>
+       <form-error-page>/loginError.jsp</form-error-page>
+    </form-login-config>
+ </login-config>
+
+ <security-role>
+    <description/>
+    <role-name>user</role-name>
+</security-role> -->
+<!-- Railway servlet-mapping -->
+
+</web-app>

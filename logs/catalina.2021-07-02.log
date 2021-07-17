@@ -1,0 +1,504 @@
+02-Jul-2021 08:58:08.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.48
+02-Jul-2021 08:58:08.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 10 2021 09:22:01 UTC
+02-Jul-2021 08:58:08.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.48.0
+02-Jul-2021 08:58:09.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+02-Jul-2021 08:58:09.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+02-Jul-2021 08:58:09.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Jul-2021 08:58:09.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-15.0.2
+02-Jul-2021 08:58:09.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7-27
+02-Jul-2021 08:58:09.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Jul-2021 08:58:09.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 08:58:09.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 08:58:09.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Jul-2021 08:58:09.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Jul-2021 08:58:09.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+02-Jul-2021 08:58:09.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+02-Jul-2021 08:58:09.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Jul-2021 08:58:09.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\conf\logging.properties
+02-Jul-2021 08:58:09.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Jul-2021 08:58:09.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Jul-2021 08:58:09.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Jul-2021 08:58:09.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Jul-2021 08:58:09.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 08:58:09.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 08:58:09.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\temp
+02-Jul-2021 08:58:09.083 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-15.0.2\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\Python37-32\;C:\Program Files (x86)\Python37-32\Scripts\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-10.0.2\bin;C:\adb;C:\Program Files\Git\cmd;C:\wamp64\bin\php\php5.6.38;C:\composer;C:\Program Files\heroku\bin\;C:\Program Files\CMake\bin;C:\MinGW\bin;C:\Users\Gokulakrishnan\AppData\Local\Programs\Microsoft VS Code\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre-10.0.2\bin;C:\Program Files\nodejs\;c:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.25.jar;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\Java\jdk-15.0.2\bin;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\;C:\Users\Gokulakrishnan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gokulakrishnan\AppData\Roaming\Composer\vendor\bin;C:\Program Files\heroku\bin;C:\MinGW\bin;C:\Users\Gokulakrishnan\AppData\Local\Programs\Microsoft VS Code\bin\;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Gokulakrishnan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-10.0.2\bin;C:\Users\Gokulakrishnan\AppData\Roaming\npm;C:\Users\Gokulakrishnan\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;c:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.25.jar;;.]
+02-Jul-2021 08:58:10.236 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 08:58:10.368 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [3212] milliseconds
+02-Jul-2021 08:58:10.558 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Jul-2021 08:58:10.558 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.48]
+02-Jul-2021 08:58:10.574 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\docs]
+02-Jul-2021 08:58:12.562 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 08:58:12.848 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\docs] has finished in [2,257] ms
+02-Jul-2021 08:58:12.848 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\examples]
+02-Jul-2021 08:58:15.978 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 08:58:16.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\examples] has finished in [3,312] ms
+02-Jul-2021 08:58:16.161 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\host-manager]
+02-Jul-2021 08:58:17.173 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 08:58:17.200 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\host-manager] has finished in [1,038] ms
+02-Jul-2021 08:58:17.203 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\manager]
+02-Jul-2021 08:58:18.091 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 08:58:18.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\manager] has finished in [897] ms
+02-Jul-2021 08:58:18.104 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\railway]
+02-Jul-2021 08:58:20.138 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 08:58:20.216 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\railway] has finished in [2,112] ms
+02-Jul-2021 08:58:20.217 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\ROOT]
+02-Jul-2021 08:58:20.800 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 08:58:20.807 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\ROOT] has finished in [589] ms
+02-Jul-2021 08:58:20.815 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 08:58:21.015 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10645] milliseconds
+02-Jul-2021 09:41:21.090 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 09:41:23.123 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 09:41:23.153 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 10:37:51.780 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 10:37:53.448 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 10:37:53.475 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 10:38:03.559 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 10:38:04.676 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 10:38:04.711 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 10:38:25.880 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 10:38:26.057 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Jul-2021 10:38:26.117 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 10:38:26.266 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 10:38:33.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.48
+02-Jul-2021 10:38:33.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 10 2021 09:22:01 UTC
+02-Jul-2021 10:38:33.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.48.0
+02-Jul-2021 10:38:33.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+02-Jul-2021 10:38:33.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+02-Jul-2021 10:38:33.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Jul-2021 10:38:33.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-15.0.2
+02-Jul-2021 10:38:33.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7-27
+02-Jul-2021 10:38:33.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Jul-2021 10:38:33.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 10:38:33.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 10:38:33.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Jul-2021 10:38:33.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Jul-2021 10:38:33.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+02-Jul-2021 10:38:33.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+02-Jul-2021 10:38:33.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Jul-2021 10:38:33.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\conf\logging.properties
+02-Jul-2021 10:38:33.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Jul-2021 10:38:33.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Jul-2021 10:38:33.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Jul-2021 10:38:33.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Jul-2021 10:38:33.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 10:38:33.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 10:38:33.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\temp
+02-Jul-2021 10:38:33.694 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-15.0.2\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\Python37-32\;C:\Program Files (x86)\Python37-32\Scripts\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-10.0.2\bin;C:\adb;C:\Program Files\Git\cmd;C:\wamp64\bin\php\php5.6.38;C:\composer;C:\Program Files\heroku\bin\;C:\Program Files\CMake\bin;C:\MinGW\bin;C:\Users\Gokulakrishnan\AppData\Local\Programs\Microsoft VS Code\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre-10.0.2\bin;C:\Program Files\nodejs\;c:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.25.jar;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\Java\jdk-15.0.2\bin;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\;C:\Users\Gokulakrishnan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gokulakrishnan\AppData\Roaming\Composer\vendor\bin;C:\Program Files\heroku\bin;C:\MinGW\bin;C:\Users\Gokulakrishnan\AppData\Local\Programs\Microsoft VS Code\bin\;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Gokulakrishnan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-10.0.2\bin;C:\Users\Gokulakrishnan\AppData\Roaming\npm;C:\Users\Gokulakrishnan\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;c:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.25.jar;;.]
+02-Jul-2021 10:38:34.552 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 10:38:34.719 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2118] milliseconds
+02-Jul-2021 10:38:34.842 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Jul-2021 10:38:34.843 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.48]
+02-Jul-2021 10:38:34.863 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\docs]
+02-Jul-2021 10:38:36.416 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 10:38:36.629 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\docs] has finished in [1,757] ms
+02-Jul-2021 10:38:36.630 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\examples]
+02-Jul-2021 10:38:39.511 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 10:38:39.610 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\examples] has finished in [2,979] ms
+02-Jul-2021 10:38:39.610 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\host-manager]
+02-Jul-2021 10:38:40.764 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 10:38:40.802 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\host-manager] has finished in [1,192] ms
+02-Jul-2021 10:38:40.803 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\manager]
+02-Jul-2021 10:38:42.015 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 10:38:42.024 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\manager] has finished in [1,221] ms
+02-Jul-2021 10:38:42.024 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\railway]
+02-Jul-2021 10:38:43.304 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 10:38:43.372 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\railway] has finished in [1,348] ms
+02-Jul-2021 10:38:43.373 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\ROOT]
+02-Jul-2021 10:38:43.871 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 10:38:43.877 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\ROOT] has finished in [504] ms
+02-Jul-2021 10:38:43.883 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 10:38:44.070 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9349] milliseconds
+02-Jul-2021 10:40:45.716 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 10:40:46.828 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 10:40:46.881 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 10:40:56.938 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 10:40:58.769 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 10:40:58.801 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 10:41:08.955 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 10:41:08.956 INFO [Catalina-utility-1] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [jsp]
+02-Jul-2021 10:41:10.212 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 10:41:10.251 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 10:42:21.260 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 10:42:22.730 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 10:42:22.769 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 11:01:20.854 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 11:01:22.338 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:01:22.404 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 11:01:32.469 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 11:01:33.422 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:01:33.453 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 11:02:45.049 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 11:02:50.505 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:02:50.591 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 11:07:04.476 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 11:07:05.363 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:07:05.401 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 11:10:48.640 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 11:10:49.866 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:10:49.900 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 11:21:14.579 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 11:21:16.177 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:21:16.213 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 11:22:26.117 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 11:22:26.199 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Jul-2021 11:22:26.362 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 11:22:26.465 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 11:22:32.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.48
+02-Jul-2021 11:22:32.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 10 2021 09:22:01 UTC
+02-Jul-2021 11:22:32.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.48.0
+02-Jul-2021 11:22:32.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+02-Jul-2021 11:22:32.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+02-Jul-2021 11:22:32.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Jul-2021 11:22:32.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-15.0.2
+02-Jul-2021 11:22:32.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7-27
+02-Jul-2021 11:22:32.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Jul-2021 11:22:32.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 11:22:32.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 11:22:32.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Jul-2021 11:22:32.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Jul-2021 11:22:32.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+02-Jul-2021 11:22:32.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+02-Jul-2021 11:22:32.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Jul-2021 11:22:32.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\conf\logging.properties
+02-Jul-2021 11:22:32.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Jul-2021 11:22:32.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Jul-2021 11:22:32.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Jul-2021 11:22:32.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Jul-2021 11:22:32.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 11:22:32.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 11:22:32.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\temp
+02-Jul-2021 11:22:32.955 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-15.0.2\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\Python37-32\;C:\Program Files (x86)\Python37-32\Scripts\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-10.0.2\bin;C:\adb;C:\Program Files\Git\cmd;C:\wamp64\bin\php\php5.6.38;C:\composer;C:\Program Files\heroku\bin\;C:\Program Files\CMake\bin;C:\MinGW\bin;C:\Users\Gokulakrishnan\AppData\Local\Programs\Microsoft VS Code\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre-10.0.2\bin;C:\Program Files\nodejs\;c:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.25.jar;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\Java\jdk-15.0.2\bin;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\;C:\Users\Gokulakrishnan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gokulakrishnan\AppData\Roaming\Composer\vendor\bin;C:\Program Files\heroku\bin;C:\MinGW\bin;C:\Users\Gokulakrishnan\AppData\Local\Programs\Microsoft VS Code\bin\;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Gokulakrishnan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-10.0.2\bin;C:\Users\Gokulakrishnan\AppData\Roaming\npm;C:\Users\Gokulakrishnan\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;c:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.25.jar;;.]
+02-Jul-2021 11:22:33.914 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 11:22:34.038 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2238] milliseconds
+02-Jul-2021 11:22:34.241 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Jul-2021 11:22:34.241 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.48]
+02-Jul-2021 11:22:34.272 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\docs]
+02-Jul-2021 11:22:35.582 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:22:35.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\docs] has finished in [1,476] ms
+02-Jul-2021 11:22:35.765 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\examples]
+02-Jul-2021 11:22:38.214 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:22:38.312 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\examples] has finished in [2,548] ms
+02-Jul-2021 11:22:38.313 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\host-manager]
+02-Jul-2021 11:22:39.200 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:22:39.214 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\host-manager] has finished in [901] ms
+02-Jul-2021 11:22:39.215 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\manager]
+02-Jul-2021 11:22:39.909 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:22:39.916 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\manager] has finished in [701] ms
+02-Jul-2021 11:22:39.918 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\railway]
+02-Jul-2021 11:22:41.063 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:22:41.170 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\railway] has finished in [1,252] ms
+02-Jul-2021 11:22:41.171 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\ROOT]
+02-Jul-2021 11:22:41.675 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:22:41.679 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\ROOT] has finished in [508] ms
+02-Jul-2021 11:22:41.683 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 11:22:41.851 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7811] milliseconds
+02-Jul-2021 11:24:44.339 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 11:24:45.477 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:24:45.529 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 11:45:02.108 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 11:45:02.149 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Jul-2021 11:45:02.268 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 11:45:02.344 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 11:45:08.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.48
+02-Jul-2021 11:45:08.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 10 2021 09:22:01 UTC
+02-Jul-2021 11:45:08.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.48.0
+02-Jul-2021 11:45:08.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+02-Jul-2021 11:45:08.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+02-Jul-2021 11:45:08.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Jul-2021 11:45:08.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-15.0.2
+02-Jul-2021 11:45:08.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7-27
+02-Jul-2021 11:45:08.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Jul-2021 11:45:08.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 11:45:08.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 11:45:08.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Jul-2021 11:45:08.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Jul-2021 11:45:08.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+02-Jul-2021 11:45:08.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+02-Jul-2021 11:45:08.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Jul-2021 11:45:08.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\conf\logging.properties
+02-Jul-2021 11:45:08.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Jul-2021 11:45:08.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Jul-2021 11:45:08.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Jul-2021 11:45:08.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Jul-2021 11:45:08.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 11:45:08.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 11:45:08.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\temp
+02-Jul-2021 11:45:08.661 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-15.0.2\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\Python37-32\;C:\Program Files (x86)\Python37-32\Scripts\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-10.0.2\bin;C:\adb;C:\Program Files\Git\cmd;C:\wamp64\bin\php\php5.6.38;C:\composer;C:\Program Files\heroku\bin\;C:\Program Files\CMake\bin;C:\MinGW\bin;C:\Users\Gokulakrishnan\AppData\Local\Programs\Microsoft VS Code\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre-10.0.2\bin;C:\Program Files\nodejs\;c:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.25.jar;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\Java\jdk-15.0.2\bin;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\;C:\Users\Gokulakrishnan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gokulakrishnan\AppData\Roaming\Composer\vendor\bin;C:\Program Files\heroku\bin;C:\MinGW\bin;C:\Users\Gokulakrishnan\AppData\Local\Programs\Microsoft VS Code\bin\;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Gokulakrishnan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-10.0.2\bin;C:\Users\Gokulakrishnan\AppData\Roaming\npm;C:\Users\Gokulakrishnan\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;c:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.25.jar;;.]
+02-Jul-2021 11:45:09.155 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 11:45:09.205 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [927] milliseconds
+02-Jul-2021 11:45:09.277 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Jul-2021 11:45:09.278 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.48]
+02-Jul-2021 11:45:09.293 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\docs]
+02-Jul-2021 11:45:10.442 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:45:10.572 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\docs] has finished in [1,278] ms
+02-Jul-2021 11:45:10.573 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\examples]
+02-Jul-2021 11:45:11.645 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:45:11.773 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\examples] has finished in [1,199] ms
+02-Jul-2021 11:45:11.773 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\host-manager]
+02-Jul-2021 11:45:12.379 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:45:12.394 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\host-manager] has finished in [621] ms
+02-Jul-2021 11:45:12.395 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\manager]
+02-Jul-2021 11:45:13.091 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:45:13.098 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\manager] has finished in [703] ms
+02-Jul-2021 11:45:13.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\railway]
+02-Jul-2021 11:45:14.600 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:45:14.727 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\railway] has finished in [1,628] ms
+02-Jul-2021 11:45:14.728 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\ROOT]
+02-Jul-2021 11:45:15.273 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 11:45:15.278 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\ROOT] has finished in [550] ms
+02-Jul-2021 11:45:15.282 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 11:45:15.457 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6250] milliseconds
+02-Jul-2021 12:06:33.949 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 12:06:35.122 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:06:35.156 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 12:12:20.370 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/railway]
+02-Jul-2021 12:12:20.371 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 12:12:21.460 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:12:21.499 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 12:12:21.500 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context []
+02-Jul-2021 12:12:21.501 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+02-Jul-2021 12:12:22.200 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:12:22.209 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+02-Jul-2021 12:12:22.212 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/examples]
+02-Jul-2021 12:12:22.213 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] has started
+02-Jul-2021 12:12:24.621 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:12:24.659 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] is completed
+02-Jul-2021 12:12:24.660 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+02-Jul-2021 12:12:24.661 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] has started
+02-Jul-2021 12:12:25.264 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:12:25.268 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] is completed
+02-Jul-2021 12:12:25.269 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/manager]
+02-Jul-2021 12:12:25.270 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] has started
+02-Jul-2021 12:12:25.713 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:12:25.717 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] is completed
+02-Jul-2021 12:12:25.719 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/docs]
+02-Jul-2021 12:12:25.719 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] has started
+02-Jul-2021 12:12:26.550 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:12:26.557 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] is completed
+02-Jul-2021 12:12:46.895 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/railway]
+02-Jul-2021 12:12:46.896 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 12:12:47.818 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:12:47.854 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 12:12:47.855 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context []
+02-Jul-2021 12:12:47.855 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+02-Jul-2021 12:12:48.326 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:12:48.329 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+02-Jul-2021 12:12:48.331 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/examples]
+02-Jul-2021 12:12:48.332 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] has started
+02-Jul-2021 12:12:49.066 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:12:49.115 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] is completed
+02-Jul-2021 12:12:49.118 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+02-Jul-2021 12:12:49.119 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] has started
+02-Jul-2021 12:12:49.554 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:12:49.558 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] is completed
+02-Jul-2021 12:12:49.559 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/manager]
+02-Jul-2021 12:12:49.560 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] has started
+02-Jul-2021 12:12:50.005 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:12:50.010 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] is completed
+02-Jul-2021 12:12:50.011 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/docs]
+02-Jul-2021 12:12:50.012 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] has started
+02-Jul-2021 12:12:51.277 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:12:51.280 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] is completed
+02-Jul-2021 12:13:21.681 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/railway]
+02-Jul-2021 12:13:21.682 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 12:13:21.798 SEVERE [Catalina-utility-1] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [1] column [1]
+	org.xml.sax.SAXParseException; systemId: file:/C:/Users/Gokulakrishnan/Desktop/railwayServlet/tomcat/webapps/railway/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1277)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3818)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1443)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1164)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1367)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1371)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+02-Jul-2021 12:13:21.812 SEVERE [Catalina-utility-1] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/C:/Users/Gokulakrishnan/Desktop/railwayServlet/tomcat/webapps/railway/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/C:/Users/Gokulakrishnan/Desktop/railwayServlet/tomcat/webapps/railway/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1277)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3818)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1443)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1164)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1367)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1371)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+02-Jul-2021 12:13:21.827 SEVERE [Catalina-utility-1] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [1] column [1]
+02-Jul-2021 12:13:21.834 SEVERE [Catalina-utility-1] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+02-Jul-2021 12:13:21.837 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+02-Jul-2021 12:13:21.840 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal Context [/railway] startup failed due to previous errors
+02-Jul-2021 12:13:21.845 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 12:14:02.019 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/railway]
+02-Jul-2021 12:14:02.879 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:14:53.605 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/railway]
+02-Jul-2021 12:14:53.605 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 12:14:54.477 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:14:54.498 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 12:15:14.743 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/railway]
+02-Jul-2021 12:15:14.744 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 12:15:15.559 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/railway]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/railway]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3818)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1443)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1164)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1367)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1371)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [HelloWorldExample]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3228)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1335)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 17 more
+02-Jul-2021 12:15:15.563 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 12:15:55.819 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/railway]
+02-Jul-2021 12:15:56.661 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:16:47.291 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/railway]
+02-Jul-2021 12:16:47.292 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 12:16:48.163 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:16:48.182 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 12:17:28.749 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/railway]
+02-Jul-2021 12:17:28.750 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 12:17:29.737 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:17:29.769 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 12:17:50.029 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/railway]
+02-Jul-2021 12:17:50.030 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 12:17:50.905 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:17:50.931 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 12:22:15.415 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] has started
+02-Jul-2021 12:22:20.261 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:22:20.282 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/railway] is completed
+02-Jul-2021 12:22:40.051 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 12:22:40.288 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Jul-2021 12:22:40.404 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 12:22:40.585 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 12:24:33.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.48
+02-Jul-2021 12:24:33.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 10 2021 09:22:01 UTC
+02-Jul-2021 12:24:33.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.48.0
+02-Jul-2021 12:24:33.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+02-Jul-2021 12:24:33.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+02-Jul-2021 12:24:33.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Jul-2021 12:24:33.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-15.0.2
+02-Jul-2021 12:24:33.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7-27
+02-Jul-2021 12:24:33.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Jul-2021 12:24:33.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 12:24:33.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 12:24:33.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Jul-2021 12:24:33.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Jul-2021 12:24:33.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+02-Jul-2021 12:24:33.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+02-Jul-2021 12:24:33.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Jul-2021 12:24:33.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\conf\logging.properties
+02-Jul-2021 12:24:33.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Jul-2021 12:24:33.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Jul-2021 12:24:33.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Jul-2021 12:24:33.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Jul-2021 12:24:33.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 12:24:33.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat
+02-Jul-2021 12:24:33.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\temp
+02-Jul-2021 12:24:33.734 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-15.0.2\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\Python37-32\;C:\Program Files (x86)\Python37-32\Scripts\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-10.0.2\bin;C:\adb;C:\Program Files\Git\cmd;C:\wamp64\bin\php\php5.6.38;C:\composer;C:\Program Files\heroku\bin\;C:\Program Files\CMake\bin;C:\MinGW\bin;C:\Users\Gokulakrishnan\AppData\Local\Programs\Microsoft VS Code\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre-10.0.2\bin;C:\Program Files\nodejs\;c:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.25.jar;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\Java\jdk-15.0.2\bin;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\;C:\Users\Gokulakrishnan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gokulakrishnan\AppData\Roaming\Composer\vendor\bin;C:\Program Files\heroku\bin;C:\MinGW\bin;C:\Users\Gokulakrishnan\AppData\Local\Programs\Microsoft VS Code\bin\;C:\Users\Gokulakrishnan\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Gokulakrishnan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-10.0.2\bin;C:\Users\Gokulakrishnan\AppData\Roaming\npm;C:\Users\Gokulakrishnan\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;c:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.25.jar;;.]
+02-Jul-2021 12:24:34.255 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 12:24:34.303 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1430] milliseconds
+02-Jul-2021 12:24:34.375 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Jul-2021 12:24:34.378 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.48]
+02-Jul-2021 12:24:34.409 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\docs]
+02-Jul-2021 12:24:35.471 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:24:35.618 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\docs] has finished in [1,208] ms
+02-Jul-2021 12:24:35.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\examples]
+02-Jul-2021 12:24:36.763 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:24:36.967 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\examples] has finished in [1,349] ms
+02-Jul-2021 12:24:36.968 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\host-manager]
+02-Jul-2021 12:24:37.651 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:24:37.668 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\host-manager] has finished in [699] ms
+02-Jul-2021 12:24:37.668 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\manager]
+02-Jul-2021 12:24:38.340 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:24:38.346 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\manager] has finished in [678] ms
+02-Jul-2021 12:24:38.347 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\railway]
+02-Jul-2021 12:24:39.480 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:24:39.576 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\railway] has finished in [1,228] ms
+02-Jul-2021 12:24:39.577 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\ROOT]
+02-Jul-2021 12:24:40.052 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jul-2021 12:24:40.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gokulakrishnan\Desktop\railwayServlet\tomcat\webapps\ROOT] has finished in [481] ms
+02-Jul-2021 12:24:40.063 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 12:24:40.235 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5931] milliseconds
+02-Jul-2021 12:38:06.133 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 12:38:06.178 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Jul-2021 12:38:06.332 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Jul-2021 12:38:06.410 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
